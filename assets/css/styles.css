@@ -13,6 +13,27 @@
 .ul-menu-color-hire{
     background-color: #dc85fc;
 }
+.ul-menu-color{
+    color: #fafafa;
+}
+body{
+    background-color: #525252;
+}
+/*---------------special padding/text/margin*/
+.uppercase{
+    text-transform: uppercase;
+}
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+.general-sub-two{
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    color: #fafafa;
+    
+}
 
 /*--------------------header*/
 #nav{
@@ -52,8 +73,104 @@
     background: rgba(0,0,0,0.2);
     height: 120px;
 }
+/*-------------------Home page*/
+.logo-home{
+    background: url("/assets/images/images/monkees.jpg");
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all.5s ease-in-out;
+    -moz-transition: all.5s ease-in-out;
+    -webkit-transition: all.5s ease-in-out;
+}
 
-/* -------------- media query */ 
-@media(min-width: 992px){
+.home-text{
+    background-color: #525252;
+    color: #fafafa;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+.home-section{
+    background-color: #525252;
+}
+
+/*-------------music page*/
+#audio{
+  padding: 30px;
+}
+
+/*-----------------about page*/
+.about-page div{
+    padding: 20px;
+}
+
+
+/*------------------footer*/
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.hire-link:link{
+    color: #fafafa;
+}   
+.hire-link:visited{
+    color: #c0f9f1;
+}
+.hire-link:hover{
+    color: #ffffff;
+}
+.hire-link:active{
+    color: #ffffff;
+}
+.social-links{
+    padding-bottom: 15px;
     
 }
+.social-links li a i{
+    width: 40px;
+    height: 40px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 1px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+     transition: all 0.35s ease-in-out;
+ -moz-transition: all 0.35s ease-in-out;
+ -webkit-transition: all 0.35s ease-in-out;
+ -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background: #dc85fc;
+}
+.general-sub-one{
+    text-align: center;
+}
+.p-footer{
+    text-align: center;
+}
+
+#footer-details{
+    margin: 20px;
+}
+
+/* -------------- media query */ 
+@media(min-width: 992px) {
+    .home-section{float: left;
+}
+   .center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+}
+
+
