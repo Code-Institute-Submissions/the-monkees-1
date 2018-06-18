@@ -100,16 +100,28 @@ body{
 #audio{
   padding: 30px;
 }
+video {
+    max-width: 100%;
+    height: auto;
+}
 
 /*-----------------about page*/
 .about-page div{
     padding: 20px;
 }
 
-
+/*-------------------form*/
+.form-control{
+ padding-bottom: 5px;
+}
+.button-form{
+    float: left;
+    padding-top: 5px;
+}
 /*------------------footer*/
 footer{
     background-color: #525252;
+    text-align: center;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -172,5 +184,19 @@ footer{
     max-width: 50%;
 }
 }
-
+@media (max-width: 767px) {
+    .mobile{
+        width: 300%;
+        height: 300px;
+    }
+    .form-control{
+        padding: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .tablet{
+        width: 500px;
+        height: 400px;
+    }
+}
 
