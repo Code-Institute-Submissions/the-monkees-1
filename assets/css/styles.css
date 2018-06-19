@@ -75,7 +75,7 @@ body{
 }
 /*-------------------Home page*/
 .logo-home{
-    background: url("/assets/images/images/monkees.jpg");
+    background: url("../images/images/monkees.jpg");
     padding: 0;
     background-position: center;
     background-repeat: no-repeat;
